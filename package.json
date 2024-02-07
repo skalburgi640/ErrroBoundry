@@ -9,12 +9,16 @@
   ],
   "main": "src/index.js",
   "dependencies": {
+    "errorpack": "file:errorpack-0.1.0.tgz",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-scripts": "3.0.1"
   },
   "devDependencies": {
-    "typescript": "3.8.3"
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.1.0",
+    "rollup": "^2.36.2",
+    "rollup-plugin-terser": "^7.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

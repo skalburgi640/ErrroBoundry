@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./styles.css";
-import withErrorBoundary from "./components/CustomError/ErrorMsg";
 
 
 const ValidateError = () => {
@@ -14,4 +13,4 @@ const ValidateError = () => {
     );
 }
 
-export default withErrorBoundary(ValidateError);
+export default ValidateError;
